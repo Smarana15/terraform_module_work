@@ -1,5 +1,5 @@
 module "web" {
- source = "../basicinfra/modules"
+ source = "../basicinfra/module"
  cidr_block = "${var.cidr_block}"
  tag = "${var.tag}"
  subnet1_cidr_block = "${var.subnet1_cidr_block}"
